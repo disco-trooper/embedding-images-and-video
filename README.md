@@ -1,2 +1,2 @@
 # embedding-images-and-video
-HTML/CSS YouTube Clone
+Simple YouTube Clone made for practice of HTML/CSS.
