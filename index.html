@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube</title>
+    <script
+      src="https://kit.fontawesome.com/b39a2b6d31.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="#"><i id="burger" class="fas fa-bars"></i></a>
+      <a href="#" id="brand">
+        <img id="logo" src="./images/logo.png" alt="YouTube logo" />
+      </a>
+      <div id="search-box">
+        <input type="text" name="" id="search-bar" placeholder="Search" />
+        <button type="button" id="search-button">
+          <i class="fas fa-search" id="search-icon"></i>
+        </button>
+      </div>
+      <a href="#"><i class="fas fa-video icon"></i></a>
+      <a href="#"><i class="fas fa-th icon"></i></a>
+      <a href="#"><i class="fas fa-bell icon"></i></a>
+      <a href="#"><img id="avatar" src="./images/avatar.jpg" alt="Avatar" /></a>
+    </nav>
+    <section>
+      <iframe
+        src="https://www.youtube-nocookie.com/embed/kNmefWBxkKU"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      >
+      </iframe>
+      <h1 id="title">Edmondson - Sud Pacifica</h1>
+      <div id="views-social">
+        <span id="views">2,357 views • Nov 28, 2018</span>
+        <div id="social">
+          <div id="like-buttons">
+            <a href="#">
+              <i class="fas fa-thumbs-up social-buttons"></i>
+              <span class="social-text">111</span>
+            </a>
+            <a href="#">
+              <i class="fas fa-thumbs-down social-buttons"></i>
+              <span class="social-text">1</span>
+            </a>
+          </div>
+          <div class="social-buttons-div">
+            <a href="#">
+              <i class="fas fa-share social-buttons"></i>
+              <span class="social-text">SHARE</span>
+            </a>
+          </div>
+          <div class="social-buttons-div">
+            <a href="#">
+              <i class="fas fa-list social-buttons"></i>
+              <span class="social-text">SAVE</span>
+            </a>
+          </div>
+          <div class="social-buttons-div">
+            <a href="#" id="dots">
+              <i class="fas fa-ellipsis-h social-buttons"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="description">
+        <div id="uploader-row">
+          <a href="#">
+            <img
+              id="uploader-avatar"
+              src="./images/uploaderAvatar.jpg"
+              alt="Uploader Avatar"
+            />
+          </a>
+          <div id="uploader-info">
+            <span id="uploader-name">House Six</span>
+            <br />
+            <span id="subscribers-count">5.03K subscribers</span>
+          </div>
+          <button id="subscribe-button">SUBSCRIBE</button>
+        </div>
+        <div>
+          <pre id="description-text">
+            Label: Lissoms
+            Artist: Edmondson 
+            Format: Vinyl + MP3
+          </pre>
+          <span id="show-more">SHOW MORE</span>
+        </div>
+      </div>
+      <div>
+        <div>
+          <span id="comment-count">3 Comments</span>
+          <a href="#" id="sort-by">
+            <i class="fas fa-sort-amount-up social-buttons"></i>
+            <span id="sort-by-text">SORT BY</span>
+          </a>
+        </div>
+        <div id="new-comment-div">
+          <div class="siblings">
+            <img
+              class="comment-avatar"
+              src="./images/avatar.jpg"
+              alt="Avatar"
+            />
+          </div>
+          <div class="siblings" id="new-comment-div">
+            <input
+              placeholder="Add a public comment..."
+              type="text"
+              id="new-comment-input"
+            />
+          </div>
+        </div>
+        <div id="comments">
+          <div class="comment">
+            <div>
+              <div>
+                <a href="#">
+                  <img
+                    class="comment-avatar"
+                    src="./images/userAvatar1.jpg"
+                    alt="User Avatar"
+                  />
+                </a>
+              </div>
+              <div class="comment-body">
+                <span class="username">Kem Ersoy</span
+                ><span class="date">1 year ago</span>
+
+                <p class="comment-text">Yes please</p>
+              </div>
+            </div>
+            <div class="comment-buttons">
+              <div class="button-text">
+                <a href="#">
+                  <i class="fas fa-thumbs-up comment-button"></i>
+                  <span class="comment-like-count">1</span>
+                </a>
+              </div>
+              <div class="button-text">
+                <a href="#">
+                  <i class="fas fa-thumbs-down comment-button"></i>
+                  <span class="comment-like-count"></span>
+                </a>
+              </div>
+              <div class="reply-div">
+                <a href="#" class="reply">REPLY</a>
+              </div>
+            </div>
+          </div>
+          <div class="comment">
+            <div>
+              <div>
+                <a href="#">
+                  <img
+                    class="comment-avatar"
+                    src="./images/userAvatar1.jpg"
+                    alt="User Avatar"
+                  />
+                </a>
+              </div>
+              <div class="comment-body">
+                <span class="username">Kem Ersoy</span
+                ><span class="date">1 year ago</span>
+
+                <p class="comment-text">Yes please</p>
+              </div>
+            </div>
+            <div class="comment-buttons">
+              <div class="button-text">
+                <a href="#">
+                  <i class="fas fa-thumbs-up comment-button"></i>
+                  <span class="comment-like-count">1</span>
+                </a>
+              </div>
+              <div class="button-text">
+                <a href="#">
+                  <i class="fas fa-thumbs-down comment-button"></i>
+                  <span class="comment-like-count"></span>
+                </a>
+              </div>
+              <div class="reply-div">
+                <a href="#" class="reply">REPLY</a>
+              </div>
+            </div>
+          </div>
+          <div class="comment">
+            <div>
+              <div>
+                <a href="#">
+                  <img
+                    class="comment-avatar"
+                    src="./images/userAvatar1.jpg"
+                    alt="User Avatar"
+                  />
+                </a>
+              </div>
+              <div class="comment-body">
+                <span class="username">Kem Ersoy</span
+                ><span class="date">1 year ago</span>
+
+                <p class="comment-text">Yes please</p>
+              </div>
+            </div>
+            <div class="comment-buttons">
+              <div class="button-text">
+                <a href="#">
+                  <i class="fas fa-thumbs-up comment-button"></i>
+                  <span class="comment-like-count">1</span>
+                </a>
+              </div>
+              <div class="button-text">
+                <a href="#">
+                  <i class="fas fa-thumbs-down comment-button"></i>
+                  <span class="comment-like-count"></span>
+                </a>
+              </div>
+              <div class="reply-div">
+                <a href="#" class="reply">REPLY</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <aside>
+      <div id="up-next-div">
+        <div id="autoplay-row">
+          <span id="up-next-text">Up next</span>
+          <div id="autoplay-div">
+            <span id="autoplay-text">AUTOPLAY</span>
+            <i id="autoplay-toggle" class="fas fa-toggle-off"></i>
+          </div>
+        </div>
+        <div>
+          <div class="thumbnail-div">
+            <img
+              class="thumbnail"
+              src="./images/upNext1.webp"
+              alt="Up Next 1 Thumbnail"
+            />
+            <div>
+              <span class="duration">6:56</span>
+            </div>
+          </div>
+          <p class="thumbnail-title">Edmondson - Took</p>
+          <p class="thumbnail-label">Deeppa Music</p>
+          <p class="thumbnail-views">720 views • 1 year ago</p>
+        </div>
+        <div id="up-next-video-2">
+          <div class="thumbnail-div">
+            <img
+              class="thumbnail"
+              src="./images/upNext1.webp"
+              alt="Up Next 1 Thumbnail"
+            />
+            <div>
+              <span class="duration">6:56</span>
+            </div>
+          </div>
+          <p class="thumbnail-title">Edmondson - Took</p>
+          <p class="thumbnail-label">Deeppa Music</p>
+          <p class="thumbnail-views">720 views • 1 year ago</p>
+        </div>
+        <div class="up-next-videos">
+          <div class="thumbnail-div">
+            <img
+              class="thumbnail"
+              src="./images/upNext1.webp"
+              alt="Up Next 1 Thumbnail"
+            />
+            <div>
+              <span class="duration">6:56</span>
+            </div>
+          </div>
+          <p class="thumbnail-title">Edmondson - Took</p>
+          <p class="thumbnail-label">Deeppa Music</p>
+          <p class="thumbnail-views">720 views • 1 year ago</p>
+        </div>
+        <div class="up-next-videos">
+          <div class="thumbnail-div">
+            <img
+              class="thumbnail"
+              src="./images/upNext1.webp"
+              alt="Up Next 1 Thumbnail"
+            />
+            <div>
+              <span class="duration">6:56</span>
+            </div>
+          </div>
+          <p class="thumbnail-title">Edmondson - Took</p>
+          <p class="thumbnail-label">Deeppa Music</p>
+          <p class="thumbnail-views">720 views • 1 year ago</p>
+        </div>
+        <div class="up-next-videos">
+          <div class="thumbnail-div">
+            <img
+              class="thumbnail"
+              src="./images/upNext1.webp"
+              alt="Up Next 1 Thumbnail"
+            />
+            <div>
+              <span class="duration">6:56</span>
+            </div>
+          </div>
+          <p class="thumbnail-title">Edmondson - Took</p>
+          <p class="thumbnail-label">Deeppa Music</p>
+          <p class="thumbnail-views">720 views • 1 year ago</p>
+        </div>
+        <div class="up-next-videos">
+          <div class="thumbnail-div">
+            <img
+              class="thumbnail"
+              src="./images/upNext1.webp"
+              alt="Up Next 1 Thumbnail"
+            />
+            <div>
+              <span class="duration">6:56</span>
+            </div>
+          </div>
+          <p class="thumbnail-title">Edmondson - Took</p>
+          <p class="thumbnail-label">Deeppa Music</p>
+          <p class="thumbnail-views">720 views • 1 year ago</p>
+        </div>
+        <div class="up-next-videos">
+          <div class="thumbnail-div">
+            <img
+              class="thumbnail"
+              src="./images/upNext1.webp"
+              alt="Up Next 1 Thumbnail"
+            />
+            <div>
+              <span class="duration">6:56</span>
+            </div>
+          </div>
+          <p class="thumbnail-title">Edmondson - Took</p>
+          <p class="thumbnail-label">Deeppa Music</p>
+          <p class="thumbnail-views">720 views • 1 year ago</p>
+        </div>
+        <div class="up-next-videos">
+          <div class="thumbnail-div">
+            <img
+              class="thumbnail"
+              src="./images/upNext1.webp"
+              alt="Up Next 1 Thumbnail"
+            />
+            <div>
+              <span class="duration">6:56</span>
+            </div>
+          </div>
+          <p class="thumbnail-title">Edmondson - Took</p>
+          <p class="thumbnail-label">Deeppa Music</p>
+          <p class="thumbnail-views">720 views • 1 year ago</p>
+        </div>
+        <div class="up-next-videos">
+          <div class="thumbnail-div">
+            <img
+              class="thumbnail"
+              src="./images/upNext1.webp"
+              alt="Up Next 1 Thumbnail"
+            />
+            <div>
+              <span class="duration">6:56</span>
+            </div>
+          </div>
+          <p class="thumbnail-title">Edmondson - Took</p>
+          <p class="thumbnail-label">Deeppa Music</p>
+          <p class="thumbnail-views">720 views • 1 year ago</p>
+        </div>
+        <div class="up-next-videos">
+          <div class="thumbnail-div">
+            <img
+              class="thumbnail"
+              src="./images/upNext1.webp"
+              alt="Up Next 1 Thumbnail"
+            />
+            <div>
+              <span class="duration">6:56</span>
+            </div>
+          </div>
+          <p class="thumbnail-title">Edmondson - Took</p>
+          <p class="thumbnail-label">Deeppa Music</p>
+          <p class="thumbnail-views">720 views • 1 year ago</p>
+        </div>
+        <div class="up-next-videos">
+          <div class="thumbnail-div">
+            <img
+              class="thumbnail"
+              src="./images/upNext1.webp"
+              alt="Up Next 1 Thumbnail"
+            />
+            <div>
+              <span class="duration">6:56</span>
+            </div>
+          </div>
+          <p class="thumbnail-title">Edmondson - Took</p>
+          <p class="thumbnail-label">Deeppa Music</p>
+          <p class="thumbnail-views">720 views • 1 year ago</p>
+        </div>
+        <div class="up-next-videos">
+          <div class="thumbnail-div">
+            <img
+              class="thumbnail"
+              src="./images/upNext1.webp"
+              alt="Up Next 1 Thumbnail"
+            />
+            <div>
+              <span class="duration">6:56</span>
+            </div>
+          </div>
+          <p class="thumbnail-title">Edmondson - Took</p>
+          <p class="thumbnail-label">Deeppa Music</p>
+          <p class="thumbnail-views">720 views • 1 year ago</p>
+        </div>
+      </div>
+    </aside>
+  </body>
+</html>
