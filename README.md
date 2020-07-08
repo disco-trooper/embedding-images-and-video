@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1 align="center">Welcome to embedding-images-and-video 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
@@ -30,3 +31,7 @@ This project is [MIT](https://github.com/disco-trooper/embedding-images-and-vide
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+=======
+# embedding-images-and-video
+A simple YouTube Clone made for practice of HTML/CSS.
+>>>>>>> 6a7c26bf7d7392e7df8756f762774000708f3298
