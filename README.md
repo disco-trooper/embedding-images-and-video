@@ -19,10 +19,6 @@
 
 * Github: [@disco-trooper](https://github.com/disco-trooper)
 
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
 ## 📝 License
 
 Copyright © 2020 [disco-trooper](https://github.com/disco-trooper).<br />
