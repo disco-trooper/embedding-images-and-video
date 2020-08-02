@@ -6,7 +6,7 @@
   </a>
 </p>
 
-> A simple YouTube clone made for embedding practice purposes
+> A simple YouTube clone made for embedding practice purposes. Project made as a part of [The Odin Project's curriculum](https://www.theodinproject.com/courses/html-and-css/lessons/embedding-images-and-video).
 
 ### ✨ [Demo](https://disco-trooper.github.io/embedding-images-and-video/)
 
